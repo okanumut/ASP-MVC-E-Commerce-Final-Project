@@ -1,0 +1,37 @@
+﻿@model ASP_MVC_E_Commerce_Final_Project.Models.IndexViewModel
+@{
+    ViewBag.Title = "Manage";
+}
+<section class="main-banner">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-12">
+                <h2>@ViewBag.Title.</h2>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section class="main-content">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-8">
+                <section id="loginForm">
+                    <p class="text-success">@ViewBag.StatusMessage</p>
+
+                    <h4>Change your account settings</h4>
+                    <hr />
+                    <dl class="dl-horizontal">
+                        <dt>Password:</dt>
+                        <dd>
+                            [
+                            @Html.ActionLink("Change your password", "ChangePassword")
+
+                            ]
+                        </dd>
+                    </dl>
+                </section>
+            </div>
+        </div>
+    </div>
+</section>
