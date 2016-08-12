@@ -8,6 +8,12 @@ using System.Net;
 using System.Web;
 using System.Web.Mvc;
 using ASP_MVC_E_Commerce_Final_Project.Models;
+/**
+ * @author: Brighto Paul,Kuldeepsingh Jeewoololl,Shweta Chavda
+ * @date: August 5, 2016
+ * version:1.0
+ * Description: FoodItem controller for managing the Dashboard to edit, delete,list of items
+ */
 
 namespace ASP_MVC_E_Commerce_Final_Project.Controllers
 {

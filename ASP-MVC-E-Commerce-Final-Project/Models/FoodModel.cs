@@ -14,6 +14,9 @@ namespace ASP_MVC_E_Commerce_Final_Project.Models
 
         public virtual DbSet<Food> Foods { get; set; }
         public virtual DbSet<FoodItem> FoodItems { get; set; }
+        public virtual DbSet<Cart> Carts { get; set; }
+        public virtual DbSet<Order> Orders { get; set; }
+        public virtual DbSet<OrderDetail> OrderDetails { get; set; }
 
         protected override void OnModelCreating(DbModelBuilder modelBuilder)
         {

@@ -10,10 +10,10 @@ using System.Web.Mvc;
 using ASP_MVC_E_Commerce_Final_Project.Models;
 
 /**
- * @author: Brighto Paul,Kuldeepsingh Jeewoololl
- * @date: July 27, 2016
+ * @author: Brighto Paul,Kuldeepsingh Jeewoololl,Shweta Chavda
+ * @date: August 5, 2016
  * version:1.0
- * Description:
+ * Description: Home controller for the landing page , Menu, about and contact page
  */
 
 
