@@ -54,6 +54,9 @@
         </div>
         <div class="row">
             <div class="col-md-12">
+                <p class="button">
+                    @Html.ActionLink("Add to cart", "AddToCart", "ShoppingCart", new { id = Model.FoodItemID }, "")
+                </p>
                 <p>
                      @Html.ActionLink("Back to List", "Browse", new { type = Model.FoodType })
                 </p>
