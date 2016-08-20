@@ -17,7 +17,7 @@ using ASP_MVC_E_Commerce_Final_Project.Models;
 
 namespace ASP_MVC_E_Commerce_Final_Project.Controllers
 {
-    [Authorize]
+    [Authorize(Users ="admin@mail.com")]
     public class FoodItemsController : Controller
     {
         private FoodModel db = new FoodModel();

@@ -52,6 +52,7 @@
                             </td>
                             <td>
                                 <a href="@Url.Action("Details", new { id=item.FoodItemID })" class="btn btn-primary" title="Details"> <i class="fa fa-info"></i> More info</a>
+                                <a href="@Url.Action("AddToCart","ShoppingCart", new { id=item.FoodItemID },null)" class="btn btn-default" title="Details"> <i class="fa fa-shopping-cart"></i> Add to cart</a>
                             </td>
                         </tr>
                     }

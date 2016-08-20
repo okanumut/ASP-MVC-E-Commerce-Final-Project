@@ -28,7 +28,7 @@
                     <li class="@(ViewBag.Title.ToString() == "About Us" ? "active" : "")"><a href="@Url.Action("About","Home")">About</a></li>
                     <li class="@(ViewBag.Title.ToString() == "Get in Touch" ? "active" : "")"><a href="@Url.Action("Contact","Home")">Contact</a></li>
                     <li>@{Html.RenderAction("CartSummary", "ShoppingCart");}</li>
-                    @if (ViewContext.HttpContext.User.Identity.IsAuthenticated)
+                    @if (ViewContext.HttpContext.User.Identity.Name=="admin@mail.com")
                     {
                         <li class="@(ViewBag.Title.ToString() == "Dashboard" ? "active" : "")"><a href="@Url.Action("Index","FoodItems")">Dashboard</a></li>
                     }
