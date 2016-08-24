@@ -213,3 +213,55 @@ No row Margin
 .main-content {
     padding: 40px 0;
 }
+
+
+.table-header th, .table-footer td, th {
+    padding: 15px 5px!important;
+    font-size: 19px!important;
+}
+
+.table-footer {
+    background: #EFEFEF;
+}
+
+.button a {
+    padding: 15px 25px;
+    display: inline-block;
+    color: #FFF;
+    font-weight: bold;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    background-color: #c78f53;
+}
+
+.table > thead > tr > th,
+.table-condensed > tbody > tr > td {
+    padding: 15px 5px!important;
+}
+
+.main-form form {
+    width: 50%;
+    padding: 40px;
+    margin: 20px auto;
+    display: block;
+    border: 1px solid #DDD;
+    background: #F8F8F8;
+}
+
+.main-form input {
+    display: block!important;
+    padding: 10px!important;
+    border: 1px solid #DDD!important;
+    width: 98%;
+    margin-bottom: 20px;
+}
+
+.main-form input[type="submit"] {
+    padding: 15px 25px;
+    display: inline-block;
+    color: #FFF;
+    font-weight: bold;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    background-color: #c78f53;
+}
